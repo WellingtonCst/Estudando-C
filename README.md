@@ -1,2 +1,2 @@
 # Estudando-C
- aprendendo c de uma forma aleatoria mas que funciona pra mim.
+ Aprendendo C de uma forma bem aleatoria (mais na prática), que funciona pra mim.
