@@ -52,10 +52,14 @@ int main(){
 
     printf("\nVidas restantes: %d\n", vidas);
         if(vidas == 0){
-            printf("\nGame Over, voce nao tem mais vida\n");
+            printf("\nGamer Over! voce nao tem mais vida\n");
+        }else{
+            printf("\nParabens! voce venceu o Quiz!\n");
         }
 
     printf("\nFim do Quiz\n");
+
+    system("Pause");
 
     return 0;
 
