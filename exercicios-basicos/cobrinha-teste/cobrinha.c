@@ -156,9 +156,15 @@ void Algorithm() {
             gameover = 1;
 
     if (x == fruitX && y == fruitY) {
-        score += 10;
+        // Exibir uma pergunta e processar a resposta
+        ShowQuestion();
+        char answer = _getch();
+        score += ProcessAnswer(answer);
+
+        // Gerar nova posição para a fruta
         fruitX = rand() % width;
         fruitY = rand() % height;
+
         nTail++;
     }
 }
