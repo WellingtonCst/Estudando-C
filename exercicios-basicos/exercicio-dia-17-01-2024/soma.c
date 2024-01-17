@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     int num1,num2;
@@ -14,4 +15,5 @@ int main(){
 
     printf("A Soma dos valores e igual a: %d", resultado);
     
+    return 0;
 }
